@@ -59,7 +59,10 @@ body{
     content:'';
     border-bottom:2px solid #ccc;
     margin:30px 20px 0 20px;
-    padding-bottom:15px;
+    padding-bottom:24px;
+  }
+  section p{
+    margin:5px 0;
   }
   section h2{
     color:#7BBAAA;
@@ -133,7 +136,7 @@ body{
     min-height:calc(100vh - 100px);
   }
   main section{
-    margin:20px 10px;
+    margin: -5px 10px;
   }
   main ul{
     display:flex;
@@ -165,8 +168,6 @@ body{
   main .proWrapper img{
     border:1px solid #ddd;
     width:350px;
-    
-    flex:1;
     display:block;
     
   }
@@ -180,7 +181,7 @@ body{
   main section:last-child{
     padding-bottom:1px solid transparent;
   }
-  @media (max-width:500px){
+  @media (max-width:700px){
     header{
       background:#7BBAAA;
       width:100%;
@@ -209,4 +210,10 @@ body{
       padding-left:0;
       flex-direction:column;
     }
+  }
+  .interTitle{
+    display: flex;
+    justify-content: space-between;
+    margin: -17px 0;
+    flex-wrap: wrap;
   }
