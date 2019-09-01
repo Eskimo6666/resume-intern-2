@@ -59,7 +59,7 @@ body{
     content:'';
     border-bottom:2px solid #ccc;
     margin:30px 20px 0 20px;
-    padding-bottom:24px;
+    padding-bottom:12px;
   }
   section p{
     margin:5px 0;
@@ -67,6 +67,18 @@ body{
   section h2{
     color:#7BBAAA;
     font-size:16px;
+  }
+  #sec1 h3{
+    margin: -11px 0px;
+  }
+  #sec1 img{
+    margin: 15px 0px;
+  }
+  .secNu img{
+    margin: -5px 0;
+  }
+  .secNu h3{
+    margin: 8px 0;
   }
   .personal .item{
        margin-top:6px;
@@ -149,6 +161,7 @@ body{
     background: #7BBAAA;
     list-style: none;
     flex:1;
+    margin-bottom: -13px;
   }
   main .intro ul>li>p {
     margin: 8px 10px;
@@ -181,7 +194,7 @@ body{
   main section:last-child{
     padding-bottom:1px solid transparent;
   }
-  @media (max-width:700px){
+  @media (max-width:400px){
     header{
       background:#7BBAAA;
       width:100%;
